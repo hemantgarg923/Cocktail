@@ -1,0 +1,12 @@
+.main{
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10px;
+}

@@ -1,0 +1,24 @@
+<div class="box" *ngIf="common.isCardClicked">
+    <div>
+        <h2 class="h-secondary center header">{{name}}</h2>
+    </div>
+    <div class="main">
+        <div class="left">
+            <img [src]="source" class="image" alt="">
+        </div>
+        <div class="right">
+            <div class="item">
+                <span class="bold">Category: </span><span>{{category}}</span>
+            </div>
+            <div class="item">
+                <span class="bold">Type: </span><span>{{type}}</span>
+            </div>
+            <div class="item">
+                <span class="bold">Instructions: </span><span>{{instructions}}</span>
+            </div>
+            <div class="item">
+                <span class="bold">Ingredients/Measure: </span><span>{{ingredients}}</span>
+            </div>
+        </div>
+    </div>
+</div>
