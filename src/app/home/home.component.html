@@ -1,0 +1,9 @@
+<div class="main">
+    <span *ngFor="let i of common.drinksArray | paginate: { itemsPerPage: 6, currentPage: page }">
+        <app-card [drink]=i></app-card>
+    </span>
+</div>
+
+<div class="bottom">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
